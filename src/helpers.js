@@ -30,6 +30,15 @@ function shuffle(arr, lastIndex) {
   }
 }
 
+function printResult(initialArray, sortedArray) {
+  console.log(`
+    Sorted!
+    initial array - ${initialArray};
+    sorted - array - ${sortedArray};
+  `);
+}
+
 module.exports = {
-  randomArray
+  randomArray,
+  printResult
 };

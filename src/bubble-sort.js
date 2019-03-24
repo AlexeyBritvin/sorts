@@ -1,6 +1,6 @@
-const {randomArray} = require('./helpers');
+const {randomArray, printResult} = require('./helpers');
 
-const arr = randomArray(20);
+const randomArr = randomArray(20);
 
 function bubbleSort(arr) {
   let temp;
@@ -17,4 +17,4 @@ function bubbleSort(arr) {
   return arr;
 }
 
-console.log(bubbleSort(arr));
+printResult([...randomArr], bubbleSort(randomArr));
