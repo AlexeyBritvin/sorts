@@ -1,6 +1,6 @@
 const {randomArray, printResult} = require('./helpers');
 
-const randomArr = randomArray(20);
+const randomArr = randomArray(10);
 
 function bubbleSort(arr) {
   let temp;

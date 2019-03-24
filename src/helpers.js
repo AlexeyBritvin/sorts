@@ -1,7 +1,7 @@
 function randomArray(total) {
   let arr = [];
 
-  for (let i = 0; i <= total; i++) {
+  for (let i = 0; i < total; i++) {
     arr.push(i);
   }
 
@@ -34,7 +34,7 @@ function printResult(initialArray, sortedArray) {
   console.log(`
     Sorted!
     initial array - ${initialArray};
-    sorted - array - ${sortedArray};
+    sorted array - ${sortedArray};
   `);
 }
 
